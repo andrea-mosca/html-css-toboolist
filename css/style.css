@@ -22,7 +22,7 @@ body{
 
 .container{
     background-color: white;
-    border-radius: 1%;
+    border-radius: 5px;
     max-width: 900px;
     margin: auto;
     margin-top: 50px;
@@ -33,7 +33,7 @@ body{
     display: inline-block;
     background-color: rgb(72, 172, 241);
     
-    border-radius: 10%;
+    border-radius: 10px;
     padding: 10px;
     color: white;
 
@@ -42,19 +42,21 @@ body{
     display: inline-block;
     background-color: white;
 border: 1px solid black;
-border-radius: 10%;
+border-radius: 10px;
 padding: 10px;
 margin: 5px;
 }
 .line{
     display: inline;
+
 }
 .categories{
-    border-radius: 35%;
-    padding: 10px;
+    border-radius: 25px;
+    padding: 5px;
     display: inline-block;
     color: white;
 }
+/* design colori delle categorie  */
 .back-blue{
     background-color: rgb(66, 171, 234);
 }
@@ -73,20 +75,30 @@ margin: 5px;
 .back-green{
     background-color: rgb(177, 205, 35);
 }
+/* design check */
 .check{
     border: 1px solid green;
     border-radius: 50%;
     color: green;
+    margin-right: 10px;
 }
+/* design croce */
 .cross{
     border: 1px solid red;
     border-radius: 50%;
     color: red;
+    margin-right: 10px;
+
 }
+/* spaziature tra le sezioni */
 #second-section{
     margin: 35px 0px;
 }
 
 #fourth-section{
     margin: 35px 0px;
+}
+/* spaziature tra le righe */
+.space{
+    margin-bottom: 10px;
 }
