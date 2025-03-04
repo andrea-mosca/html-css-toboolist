@@ -7,14 +7,17 @@
 }
 body{
     background-color: rgb(246, 248, 250);
+   
 }
 .logo-cover{
     background-color: white;
+    vertical-align: middle;
     
 }
-h1{
-    display: inline-block;
+#title{
+    display: inline;
     background-color: white;
+    vertical-align: middle;
 }
 
 .container{
@@ -69,4 +72,21 @@ margin: 5px;
 }
 .back-green{
     background-color: rgb(177, 205, 35);
+}
+.check{
+    border: 1px solid green;
+    border-radius: 50%;
+    color: green;
+}
+.cross{
+    border: 1px solid red;
+    border-radius: 50%;
+    color: red;
+}
+#second-section{
+    margin: 35px 0px;
+}
+
+#fourth-section{
+    margin: 35px 0px;
 }
